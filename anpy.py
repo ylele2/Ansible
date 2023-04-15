@@ -1,7 +1,7 @@
 import os
 
 # Define the file name and path
-file_name = "example.txt"
+file_name = "Madhura.txt"
 file_path = "/tmp/" + file_name
 
 # Create the file
