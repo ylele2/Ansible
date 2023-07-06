@@ -1,0 +1,6 @@
+---
+ - name: to start service
+   hosts: all
+   tasks:
+    - name : Restart httpd service
+      service: name=httpd enabled=true state=started
